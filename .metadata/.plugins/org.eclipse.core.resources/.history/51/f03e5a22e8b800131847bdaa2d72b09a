@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="2" width="169" height="921" measuredWidth="169" measuredHeight="921" background="#000000" foreground="#ffffff"/>
+  <widgets xsi:type="model:Panel" id="2" width="169" height="913" measuredWidth="169" measuredHeight="913" background="#000000" foreground="#ffffff"/>
   <widgets xsi:type="model:Label" id="4" x="10" y="16" text="Dashboard" measuredWidth="79" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="home (small)" link="../dashboard.screen">
     <font/>
   </widgets>
