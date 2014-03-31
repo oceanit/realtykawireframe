@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="4" y="1" width="1025" height="73" measuredWidth="1025" measuredHeight="73" background="#000000"/>
+  <widgets xsi:type="model:Image" id="2" x="10" y="17" width="169" height="41" measuredWidth="169" measuredHeight="41" src="../Images/realtyka-logo.png"/>
+  <widgets xsi:type="model:Label" id="7" x="576" y="12" text="Notifications" measuredWidth="71" measuredHeight="50" textAlignment="Center" foreground="#ffffff" icon="warning (medium)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="672" y="12" text="Emails" measuredWidth="37" measuredHeight="50" textAlignment="Center" foreground="#ffffff" icon="at (medium)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="14" x="848" y="11" width="49" height="52" measuredWidth="49" measuredHeight="52" src="../Images/profile.jpg"/>
+  <widgets xsi:type="model:Label" id="15" x="744" y="23" text="Agent Smith" measuredWidth="92" measuredHeight="29" foreground="#ffffff">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="936" y="25" text="Contacts >" measuredWidth="69" measuredHeight="25" foreground="#cccccc">
+    <font size="13px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

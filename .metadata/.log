@@ -1,0 +1,18 @@
+!SESSION 2014-03-31 12:16:18.619 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\gal\Documents\GitHub\realtykawireframe
+
+!ENTRY org.eclipse.ui 4 4 2014-03-31 12:16:21.072
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.findAndInstallUpdates", command "org.eclipse.ui.update.findAndInstallUpdates" not defined
+
+!ENTRY org.eclipse.ui 4 4 2014-03-31 12:16:21.072
+!MESSAGE Unable to create menu item "org.eclipse.ui.update.manageConfiguration", command "org.eclipse.ui.update.manageConfiguration" not defined
+
+!ENTRY com.wireframesketcher.ui 1 0 2014-03-31 12:16:21.478
+!MESSAGE WireframeSketcher v4.2.3 (full)
+
+!ENTRY org.eclipse.ui 4 4 2014-03-31 12:16:21.509
+!MESSAGE Unable to find view with id: org.eclipse.jdt.ui.PackageExplorer, when creating perspective com.wireframesketcher.ui.perspective
