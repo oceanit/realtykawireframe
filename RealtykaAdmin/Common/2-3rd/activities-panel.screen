@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="5" text="Displaying:" measuredWidth="88" measuredHeight="31">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="104" text="All Activities" measuredWidth="97" measuredHeight="31" foreground="#0000ff">
+    <font size="17px" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="7" x="197" y="8" measuredWidth="16" measuredHeight="16" foreground="#0000ff" icon="assets/caret-down (small)"/>
+  <widgets xsi:type="model:Icon" id="8" y="51" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/envelope (small)"/>
+  <widgets xsi:type="model:Label" id="10" x="24" y="48" text="You sent email to James Green " measuredWidth="212" measuredHeight="28" foreground="#999999">
+    <font size="15px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="11" x="24" y="99" text="New property you might like" measuredWidth="240" measuredHeight="25">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="24" y="75" text="5/10/2014 14:36" measuredWidth="100" measuredHeight="25" foreground="#999999">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="13" x="480" y="54" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/eye-close (small)"/>
+  <widgets xsi:type="model:Icon" id="14" x="504" y="54" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/archive (small)"/>
+  <widgets xsi:type="model:Icon" id="15" y="165" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/info (small)"/>
+  <widgets xsi:type="model:Label" id="16" x="24" y="162" text="You update details of James Green " measuredWidth="239" measuredHeight="28" foreground="#999999">
+    <font size="15px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="17" x="504" y="168" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/archive (small)"/>
+  <widgets xsi:type="model:Label" id="18" x="24" y="189" text="5/10/2014 14:36" measuredWidth="100" measuredHeight="25" foreground="#999999">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="24" y="256" text="You added new note to James Green " measuredWidth="252" measuredHeight="28" foreground="#999999">
+    <font size="15px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="20" x="504" y="262" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/archive (small)"/>
+  <widgets xsi:type="model:Icon" id="21" x="-1" y="411" width="17" measuredWidth="17" measuredHeight="16" foreground="#999999" icon="assets/user (small)"/>
+  <widgets xsi:type="model:Label" id="22" x="24" y="408" text="You created new contact: James Green " measuredWidth="263" measuredHeight="28" foreground="#999999">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="23" x="504" y="414" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/archive (small)"/>
+  <widgets xsi:type="model:Label" id="24" x="24" y="283" text="5/10/2014 14:36" measuredWidth="100" measuredHeight="25" foreground="#999999">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="25" y="259" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/comment (small)"/>
+  <widgets xsi:type="model:Text" id="27" x="24" y="307" text="I should show him the property @ 11511" measuredWidth="357" measuredHeight="28">
+    <font size="20px"/>
+  </widgets>
+  <hRuler>
+    <guides position="263"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

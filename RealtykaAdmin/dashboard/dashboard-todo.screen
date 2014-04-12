@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" width="537" height="689" text="To Do,Stats,Profile" measuredWidth="537" measuredHeight="689" selection="0">
+    <items link="../old_dashboard-todo.screen" x="10" y="0" width="53" height="27" text="To Do"/>
+    <items link="../old_dashboard-stats.screen" x="63" y="0" width="46" height="27" text="Stats"/>
+    <items x="109" y="0" width="55" height="27" text="Profile"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="10" y="108" measuredWidth="16" measuredHeight="16" foreground="#ff0000" icon="assets/envelope (small)"/>
+  <widgets xsi:type="model:Label" id="3" x="120" y="104" text="Remarks about Tompa 23rd pr..." measuredWidth="175" measuredHeight="23" foreground="#ff0000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="304" y="104" text="03/31/2014 13:00" measuredWidth="94" measuredHeight="23" foreground="#ff0000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="120" y="64" text="Subject" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="304" y="64" text="Due Date" measuredWidth="59" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="397" y="64" text="Priority" measuredWidth="44" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="472" y="64" text="Status" measuredWidth="38" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="9" x="120" y="37" width="85" text="Show All" measuredWidth="85" measuredHeight="23" borderColor="#999999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="11" x="10" y="134" height="59" measuredWidth="6" measuredHeight="59" foreground="#999999" lineStyle="dotted"/>
+  <widgets xsi:type="model:Text" id="12" x="32" y="134" width="377" height="67" text="Hi John,&#xD;&#xA;As per our conversation, the property in Tompa 34rd st is for sale or lease. The property contains 3beds, 3 baths. &#xD;&#xA;Please send me a listing agreement" measuredWidth="377" measuredHeight="67">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="32" y="64" text="Creator" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="14" x="397" y="104" width="71" text="High" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="32" y="104" width="81" text="Bill Reed" measuredWidth="81" measuredHeight="23" foreground="#ff0000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="16" x="472" y="104" text="Open" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="17" x="501" y="144" measuredWidth="24" measuredHeight="24" icon="assets/trash (medium)"/>
+  <widgets xsi:type="model:Icon" id="18" x="468" y="144" measuredWidth="24" measuredHeight="24" icon="assets/reply (medium)"/>
+  <widgets xsi:type="model:Icon" id="19" x="472" y="169" measuredWidth="24" measuredHeight="24" icon="assets/bullseye (medium)"/>
+  <widgets xsi:type="model:Icon" id="21" x="501" y="169" measuredWidth="24" measuredHeight="24" icon="assets/tag (medium)"/>
+  <widgets xsi:type="model:Icon" id="22" x="10" y="212" measuredWidth="16" measuredHeight="16" foreground="#ff0000" icon="assets/calendar (small)"/>
+  <widgets xsi:type="model:Label" id="23" x="120" y="208" text="Meeting with Helen Green" measuredWidth="144" measuredHeight="23" foreground="#ff0000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="304" y="208" text="03/31/2014 13:30" measuredWidth="94" measuredHeight="23" foreground="#ff0000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="25" x="397" y="208" width="71" text="High" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="32" y="208" width="81" text="Me" measuredWidth="81" measuredHeight="23" foreground="#ff0000">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="27" x="472" y="208" text="Open" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="28" x="10" y="244" measuredWidth="16" measuredHeight="16" icon="assets/ticket (small)"/>
+  <widgets xsi:type="model:Label" id="29" x="120" y="240" text="Ticket 3212: How to order a bu..." measuredWidth="176" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="304" y="240" text="04/01/2014 10:00" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="31" x="397" y="240" text="Medium" measuredWidth="72" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="32" y="240" width="81" text="Realtyka Support" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="33" x="472" y="240" text="Open" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="34" x="10" y="277" measuredWidth="16" measuredHeight="16" icon="assets/bullseye (small)"/>
+  <widgets xsi:type="model:Label" id="35" x="120" y="273" text="You Have New Lead" measuredWidth="112" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="304" y="273" text="04/01/2014 10:10" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="37" x="397" y="273" width="71" text="High" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="32" y="273" width="81" text="Realtyka Mar..." measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="39" x="472" y="273" text="Open" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="40" x="10" y="308" measuredWidth="16" measuredHeight="16" icon="assets/tasks (small)"/>
+  <widgets xsi:type="model:Label" id="41" x="120" y="304" text="Call Mark" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="304" y="304" text="04/01/2014 10:15" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="43" x="397" y="304" width="71" text="Low" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="32" y="304" width="81" text="Me" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="45" x="472" y="304" text="Open" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="46" x="10" y="337" measuredWidth="16" measuredHeight="16" icon="assets/bullhorn (small)"/>
+  <widgets xsi:type="model:Label" id="47" x="120" y="333" text="Google Adwords Cupon" measuredWidth="133" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="304" y="333" text="04/01/2014 10:20" measuredWidth="94" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="49" x="397" y="333" width="71" text="Medium" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="32" y="333" width="81" text="Realtyka Mar..." measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="51" x="472" y="333" text="Open" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="52" x="10" y="89" width="515" measuredWidth="515" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="53" x="16" y="37" text="Create New" measuredWidth="91" measuredHeight="24" textAlignment="Center" foreground="#999999" icon="circled-plus (medium)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="54" x="357" y="68" measuredWidth="16" measuredHeight="16" icon="assets/caret-down (small)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

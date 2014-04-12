@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="27" x="40" measuredWidth="183" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="Upcoming meetings">
+        <font size="20px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="28" x="1" y="2" measuredWidth="32" measuredHeight="32" icon="assets/calendar (large)"/>
+  <widgets xsi:type="model:Label" id="29" x="1" y="48" text="Today" measuredWidth="38" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="1" y="70" text="13:30" measuredWidth="33" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="65" y="70" text="Meeting with Helen Green" measuredWidth="144" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="65" y="89" text="@ Metro Drive 6th st" measuredWidth="114" measuredHeight="23" foreground="#999999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="33" x="253" y="93" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/map-marker (small)"/>
+  <widgets xsi:type="model:Icon" id="34" x="253" y="74" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/phone (small)"/>
+  <widgets xsi:type="model:Label" id="35" x="1" y="112" text="16:30" measuredWidth="33" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="65" y="112" text="Meeting with Danni Nissan" measuredWidth="148" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="65" y="131" text="@ Times Squre" measuredWidth="85" measuredHeight="23" foreground="#999999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="38" x="253" y="135" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/map-marker (small)"/>
+  <widgets xsi:type="model:Icon" id="39" x="253" y="116" measuredWidth="16" measuredHeight="16" foreground="#999999" icon="assets/phone (small)"/>
+  <widgets xsi:type="model:Master" id="51" x="112" y="160" measuredWidth="61" measuredHeight="21" link="../old_dashboard-todo-expended.screen">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Dropup"/>
+    <overrides>
+      <widgets ref="33" width="61" height="21" text="More {desc}">
+        <attributes key="style" value="round"/>
+        <attributes key="state" value="disabled"/>
+        <font size="11px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="52" x="240" y="6" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="circled-plus (medium)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

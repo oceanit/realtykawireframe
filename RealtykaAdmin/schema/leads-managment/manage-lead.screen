@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Shape" id="1" x="312" y="118" width="113" height="89" text="Lead" measuredWidth="113" measuredHeight="89">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="7" x="424" y="163" width="57" height="8" measuredWidth="57" measuredHeight="8" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Label" id="43" x="16" y="16" text="Manage Leads" measuredWidth="279" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="384" y="512" measuredWidth="165" measuredHeight="63">
+    <widgets xsi:type="model:Shape" id="45" width="165" height="63" text="Comps. Sell/Rent" measuredWidth="165" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="46" x="8" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="47" x="152" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="48" x="479" y="131" width="165" height="63" text="Call lead" measuredWidth="165" measuredHeight="63" shapeType="rectangle">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="49" x="264" y="265" width="216" height="8" text="Couldn't Contact" measuredWidth="216" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="52" x="643" y="265" width="134" height="8" text="Not Available" measuredWidth="134" measuredHeight="8" annotation="true" left="false"/>
+  <widgets xsi:type="model:Note" id="53" x="816" y="220" text="Note:&#xD;&#xA;Up to 3 times" measuredWidth="87" measuredHeight="44" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="54" x="479" y="232" width="165" height="65" text="Is Success" measuredWidth="165" measuredHeight="65" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="55" x="561" y="193" width="8" height="40" measuredWidth="8" measuredHeight="40" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Shape" id="57" x="688" y="131" width="165" height="63" text="Call lead" measuredWidth="165" measuredHeight="63" shapeType="rectangle">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="58" x="776" y="193" width="8" height="73" measuredWidth="8" measuredHeight="73" annotation="true"/>
+  <widgets xsi:type="model:Arrow" id="59" x="643" y="159" width="49" height="8" measuredWidth="49" measuredHeight="8" annotation="true"/>
+  <widgets xsi:type="model:Shape" id="60" x="152" y="220" width="113" height="89" text="Lost Lead" measuredWidth="113" measuredHeight="89">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="61" x="561" y="296" width="8" height="57" text="Yes" measuredWidth="8" measuredHeight="57" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Shape" id="64" x="479" y="352" width="165" height="63" text="Get Lead Updates" measuredWidth="165" measuredHeight="63" shapeType="rectangle">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="65" x="752" y="352" width="193" height="63" text="Update requirements / requests" measuredWidth="193" measuredHeight="63" shapeType="rectangle">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="66" x="208" y="382" width="272" height="8" text="Not relevant anymore" measuredWidth="272" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="67" x="208" y="308" width="8" height="581" text="Lost" measuredWidth="8" measuredHeight="581" annotation="true"/>
+  <widgets xsi:type="model:Arrow" id="68" x="643" y="382" width="110" height="8" text="Changes" measuredWidth="110" measuredHeight="8" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="70" x="561" y="414" width="8" height="75" measuredWidth="8" measuredHeight="75" annotation="true" left="false"/>
+  <widgets xsi:type="model:Arrow" id="71" x="832" y="414" width="8" height="27" measuredWidth="8" measuredHeight="27" annotation="true" left="false"/>
+  <widgets xsi:type="model:Arrow" id="72" x="561" y="440" width="271" height="8" measuredWidth="271" measuredHeight="8" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="73" x="464" y="488" width="8" height="25" measuredWidth="8" measuredHeight="25" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Shape" id="74" x="384" y="616" width="165" height="57" text="Setup Meeting" measuredWidth="165" measuredHeight="57" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="75" x="576" y="512" measuredWidth="165" measuredHeight="63">
+    <widgets xsi:type="model:Shape" id="76" width="165" height="63" text="Comps. Buy/Rent" measuredWidth="165" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="77" x="8" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="78" x="152" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="79" x="464" y="488" width="185" height="8" measuredWidth="185" measuredHeight="8" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="80" x="648" y="488" width="8" height="25" measuredWidth="8" measuredHeight="25" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="81" x="208" y="645" width="184" height="8" text="Fail" measuredWidth="184" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="83" x="984" y="381" width="8" height="220" text="Proccess pending" measuredWidth="8" measuredHeight="220" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="84" x="944" y="380" width="41" height="8" measuredWidth="41" measuredHeight="8" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Shape" id="85" x="928" y="604" width="113" height="89" text="Immature Lead" measuredWidth="113" measuredHeight="89">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="87" x="464" y="574" width="8" height="43" measuredWidth="8" measuredHeight="43" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Shape" id="88" x="473" y="856" width="177" height="66" text="Accepts Terms" measuredWidth="177" measuredHeight="66" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="89" x="655" y="571" width="8" height="243" measuredWidth="8" measuredHeight="243" annotation="true" left="false"/>
+  <widgets xsi:type="model:Arrow" id="90" x="464" y="672" width="8" height="41" measuredWidth="8" measuredHeight="41" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="91" x="208" y="888" width="266" height="8" text="Fail" measuredWidth="266" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="92" x="984" y="692" width="8" height="197" measuredWidth="8" measuredHeight="197" annotation="true"/>
+  <widgets xsi:type="model:Arrow" id="86" x="548" y="645" width="381" height="8" text="&quot;Thinking about it&quot;" measuredWidth="381" measuredHeight="8" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:WidgetGroup" id="93" x="384" y="712" measuredWidth="165" measuredHeight="63">
+    <widgets xsi:type="model:Shape" id="94" width="165" height="63" text="Meeting" measuredWidth="165" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="95" x="8" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="96" x="152" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="97" x="649" y="888" width="335" height="8" text="Not ready" measuredWidth="335" measuredHeight="8" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="98" x="464" y="774" width="8" height="41" measuredWidth="8" measuredHeight="41" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="99" x="561" y="816" width="8" height="41" measuredWidth="8" measuredHeight="41" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="100" x="464" y="816" width="192" height="8" measuredWidth="192" measuredHeight="8" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="101" x="561" y="921" width="8" height="72" text="Wants to continue" measuredWidth="8" measuredHeight="72" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Shape" id="102" x="505" y="992" width="113" height="89" text="Mature Lead" measuredWidth="113" measuredHeight="89">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="103" x="272" y="522" text="talk with tamir to &#xD;&#xA;get into details" measuredWidth="110" measuredHeight="44" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler>
+    <guides position="561"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

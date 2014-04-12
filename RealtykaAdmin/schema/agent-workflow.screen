@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Shape" id="26" x="444" y="726" width="147" height="79" text="Agreement Signed" measuredWidth="147" measuredHeight="79" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="30" x="516" y="592" width="8" height="54" text="Yes" measuredWidth="8" measuredHeight="54" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="35" x="516" y="696" width="8" height="31" measuredWidth="8" measuredHeight="31" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Shape" id="57" x="671" y="898" text="Proccess Complete" measuredWidth="166" measuredHeight="166">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="60" x="448" y="645" measuredWidth="137" measuredHeight="55">
+    <widgets xsi:type="model:Shape" id="61" width="137" height="55" text="Create Customer" measuredWidth="137" measuredHeight="55" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="62" x="6" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+    <widgets xsi:type="model:VLine" id="63" x="126" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="98" x="800" y="192" measuredWidth="215" measuredHeight="287">
+    <widgets xsi:type="model:Shape" id="73" width="215" height="287" text="Leads Sources" measuredWidth="215" measuredHeight="287">
+      <font size="17px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="64" x="56" y="33" height="33" text="Existing contact" measuredWidth="100" measuredHeight="33" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="65" x="56" y="73" width="100" height="33" text="3rd  Party" measuredWidth="100" measuredHeight="33" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="66" x="56" y="170" width="100" height="33" text="FMA" measuredWidth="100" measuredHeight="33" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="67" x="56" y="209" width="100" height="33" text="Manual" measuredWidth="100" measuredHeight="33" shapeType="rectangle">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="68" x="726" y="323" width="75" height="8" measuredWidth="75" measuredHeight="8" annotation="true"/>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="594" y="291" measuredWidth="133" measuredHeight="63" link="leads-managment/register-lead.screen">
+    <widgets xsi:type="model:Shape" id="75" width="133" height="63" text="Register Lead" measuredWidth="133" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="76" x="10" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="77" x="114" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="78" x="448" y="408" measuredWidth="135" measuredHeight="63" link="leads-managment/manage-lead.screen">
+    <widgets xsi:type="model:Shape" id="79" width="135" height="63" text="Manage Lead" measuredWidth="135" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="80" x="8" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="81" x="118" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="83" x="459" y="528" width="113" height="73" text="Is Mature" measuredWidth="113" measuredHeight="73" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="84" x="266" y="766" width="179" height="8" text="No" measuredWidth="179" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="85" x="563" y="323" width="32" height="8" measuredWidth="32" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Shape" id="86" x="474" y="290" width="90" height="66" text="Is Valid" measuredWidth="90" measuredHeight="66" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="87" x="516" y="470" width="8" height="59" measuredWidth="8" measuredHeight="59" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="88" x="520" y="355" width="8" height="54" text="Yes" measuredWidth="8" measuredHeight="54" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="89" x="520" y="225" width="75" height="8" measuredWidth="75" measuredHeight="8" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:WidgetGroup" id="91" x="594" y="192" measuredWidth="133" measuredHeight="63">
+    <widgets xsi:type="model:Shape" id="92" width="133" height="63" text="Manage Garbage" measuredWidth="133" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="93" x="10" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="94" x="114" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="95" x="726" y="225" width="115" height="8" text="Report" measuredWidth="115" measuredHeight="8" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="96" x="584" y="436" width="78" height="8" measuredWidth="78" measuredHeight="8" annotation="true"/>
+  <widgets xsi:type="model:Arrow" id="97" x="520" y="225" width="8" height="67" text="No" measuredWidth="8" measuredHeight="67" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="103" x="263" y="226" width="8" height="992" measuredWidth="8" measuredHeight="992" annotation="true" left="false"/>
+  <widgets xsi:type="model:Arrow" id="104" x="263" y="225" width="258" height="8" measuredWidth="258" measuredHeight="8" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="105" x="516" y="804" width="8" height="59" text="Yes" measuredWidth="8" measuredHeight="59" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="106" x="571" y="563" width="91" height="8" text="Not Yet" measuredWidth="91" measuredHeight="8" annotation="true" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:WidgetGroup" id="108" x="448" y="862" measuredWidth="137" measuredHeight="55">
+    <widgets xsi:type="model:Shape" id="109" width="137" height="55" text="Fulfill Request" measuredWidth="137" measuredHeight="55" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="110" x="6" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+    <widgets xsi:type="model:VLine" id="111" x="126" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="112" x="444" y="953" width="147" height="79" text="Broker agreement" measuredWidth="147" measuredHeight="79" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="113" x="516" y="916" width="8" height="38" measuredWidth="8" measuredHeight="38" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="114" x="266" y="993" width="179" height="8" text="No" measuredWidth="179" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="115" x="516" y="1031" width="8" height="59" text="Yes" measuredWidth="8" measuredHeight="59" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:WidgetGroup" id="116" x="448" y="1091" measuredWidth="137" measuredHeight="55">
+    <widgets xsi:type="model:Shape" id="117" width="137" height="55" text="Charging Proccess" measuredWidth="137" measuredHeight="55" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="118" x="6" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+    <widgets xsi:type="model:VLine" id="119" x="126" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="123" x="444" y="1181" width="147" height="79" text="Comission Collected" measuredWidth="147" measuredHeight="79" shapeType="diamond">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="124" x="516" y="1144" width="8" height="38" measuredWidth="8" measuredHeight="38" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="125" x="266" y="1221" width="179" height="8" text="No" measuredWidth="179" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="126" x="590" y="1217" width="103" height="8" text="Yes" measuredWidth="103" measuredHeight="8" annotation="true" left="false" right="true"/>
+  <widgets xsi:type="model:WidgetGroup" id="127" x="692" y="1193" measuredWidth="137" measuredHeight="55">
+    <widgets xsi:type="model:Shape" id="128" width="137" height="55" text="Customer Feedback" measuredWidth="137" measuredHeight="55" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="129" x="6" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+    <widgets xsi:type="model:VLine" id="130" x="126" y="2" height="52" measuredWidth="6" measuredHeight="52"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="131" x="756" y="1064" width="8" height="129" measuredWidth="8" measuredHeight="129" annotation="true"/>
+  <widgets xsi:type="model:Shape" id="132" x="632" y="78" width="65" text="Junk" measuredWidth="65" measuredHeight="55">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="133" x="664" y="132" width="8" height="61" measuredWidth="8" measuredHeight="61" annotation="true"/>
+  <widgets xsi:type="model:Label" id="134" x="840" y="153" text="New Leads" measuredWidth="128" measuredHeight="40">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="136" x="664" y="435" width="8" height="129" text="Follow Up" measuredWidth="8" measuredHeight="129" annotation="true" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="137" x="266" y="563" width="194" height="8" text="No &amp; Not Relevant Anymore" measuredWidth="194" measuredHeight="8" annotation="true" direction="bottom"/>
+  <widgets xsi:type="model:WidgetGroup" id="138" x="224" y="16" width="201" measuredWidth="201" measuredHeight="63">
+    <widgets xsi:type="model:Shape" id="139" width="201" height="63" text="Open proccess (or childs)" measuredWidth="201" measuredHeight="63" background="#cfe2f3" shapeType="rectangle">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="140" x="16" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+    <widgets xsi:type="model:VLine" id="141" x="173" y="2" height="59" measuredWidth="6" measuredHeight="59"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:HLine" id="156" x="742" y="879" width="261" measuredWidth="261" measuredHeight="6" foreground="#cccccc" lineStyle="dotted"/>
+  <widgets xsi:type="model:Master" id="192" measuredWidth="1025" measuredHeight="1143" dimmed="true">
+    <screen xsi:type="model:Screen" href="Contacts/contact-template.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="277" x="192" y="212" measuredWidth="258" measuredHeight="353" dimmed="true">
+    <screen xsi:type="model:Screen" href="Contacts/contact-details-view.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="278" x="482" y="267" measuredWidth="521" measuredHeight="436" dimmed="true">
+    <screen xsi:type="model:Screen" href="Common/2-3rd/activities-panel.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="279" x="456" y="266" height="593" measuredWidth="6" measuredHeight="593" foreground="#999999" lineStyle="dotted"/>
+  <hRuler>
+    <guides position="1002"/>
+    <guides position="445"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

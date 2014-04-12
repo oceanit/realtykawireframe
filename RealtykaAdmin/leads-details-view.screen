@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:HLine" id="156" x="742" y="879" width="261" measuredWidth="261" measuredHeight="6" foreground="#cccccc" lineStyle="dotted"/>
+  <widgets xsi:type="model:Master" id="192" measuredWidth="1025" measuredHeight="1143" dimmed="true">
+    <screen xsi:type="model:Screen" href="Leads/lead-template.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="193" x="194" y="200" measuredWidth="258" measuredHeight="457" dimmed="true">
+    <screen xsi:type="model:Screen" href="Leads/lead-details-view.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="194" x="482" y="256" measuredWidth="521" measuredHeight="436" dimmed="true">
+    <screen xsi:type="model:Screen" href="Common/2-3rd/activities-panel.screen#/"/>
+  </widgets>
+  <hRuler>
+    <guides position="742"/>
+    <guides position="1002"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="40" measuredWidth="126" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#h3.%20Heading"/>
+    <overrides>
+      <widgets ref="7" text="Listing Search">
+        <font size="20px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="1" y="2" measuredWidth="32" measuredHeight="32" icon="assets/hospital (large)"/>
+  <widgets xsi:type="model:Label" id="3" x="4" y="43" text="Address:" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="66" y="41" measuredWidth="200" measuredHeight="27">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="200" text="street, postcode or neighborhood">
+        <font size="11px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="4" y="75" text="Bedrooms:" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="142" y="75" text="Bathrooms:" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="208" y="73" measuredWidth="58" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" width="58" height="28" text="0 {desc}">
+        <font size="12px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="4" y="109" text="Min Price:" measuredWidth="59" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="148" y="109" text="Max Price:" measuredWidth="60" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="67" y="107" measuredWidth="58" measuredHeight="27">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="58" text="0">
+        <font size="11px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="208" y="107" measuredWidth="58" measuredHeight="27">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" width="58" text="0">
+        <font size="11px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="66" y="73" measuredWidth="58" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" width="58" height="28" text="0 {desc}">
+        <font size="12px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="13" x="67" y="139" text="Sell/Buy" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="14" x="148" y="139" text="Rent" measuredWidth="44" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="227" y="139" measuredWidth="39" measuredHeight="23" link="../old_dashboard-todo-expended.screen">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Success"/>
+    <overrides>
+      <widgets ref="37" height="23" text="Go"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

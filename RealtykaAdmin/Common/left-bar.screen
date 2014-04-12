@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Panel" id="2" width="169" height="921" measuredWidth="169" measuredHeight="921" background="#000000" foreground="#ffffff"/>
-  <widgets xsi:type="model:Label" id="4" x="10" y="16" text="Dashboard" measuredWidth="79" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="home (small)" link="../dashboard.screen">
+  <widgets xsi:type="model:Panel" id="2" width="169" height="1017" measuredWidth="169" measuredHeight="1017" background="#000000" foreground="#ffffff"/>
+  <widgets xsi:type="model:Label" id="4" x="10" y="16" text="Dashboard" measuredWidth="79" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="home (small)" link="../old_dashboard-todo.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="5" x="10" y="80" text="Contacts" measuredWidth="69" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="usergroup (small)">
+  <widgets xsi:type="model:Label" id="5" x="10" y="80" text="Contacts" measuredWidth="69" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="usergroup (small)" link="../contact-index.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="6" x="10" y="112" text="Tasks" measuredWidth="51" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="assets/gl-tasks (small)">
@@ -94,7 +94,7 @@
   <widgets xsi:type="model:Label" id="34" x="28" y="672" width="130" text="Widegets" measuredWidth="130" measuredHeight="23" foreground="#eeeeee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="35" x="10" y="46" text="Leads" measuredWidth="52" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="assets/bullseye (small)">
+  <widgets xsi:type="model:Label" id="35" x="10" y="46" text="Leads" measuredWidth="52" measuredHeight="23" textAlignment="Center" foreground="#ffffff" icon="assets/bullseye (small)" link="../leads-index.screen">
     <font/>
   </widgets>
   <hRuler/>

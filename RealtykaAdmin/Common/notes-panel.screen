@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="2" width="265" height="177" text="Add a Note, Send an Email" measuredWidth="265" measuredHeight="177" selection="0">
+    <items x="10" y="0" width="81" height="27" text="Add a Note"/>
+    <items x="91" y="0" width="95" height="27" text="Send an Email"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="3" x="16" y="37" width="233" height="92" text="Add a note about hits contact." measuredWidth="233" measuredHeight="92">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="16" y="133" measuredWidth="88" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Success"/>
+    <overrides>
+      <widgets ref="37" text="Save Note"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

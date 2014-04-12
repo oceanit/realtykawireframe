@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="27" measuredWidth="1025" measuredHeight="1143" dimmed="true">
+    <screen xsi:type="model:Screen" href="dashboard/dashboard-template.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:HSplitter" id="155" x="742" y="403" width="260" measuredWidth="260" measuredHeight="11"/>
+  <widgets xsi:type="model:HLine" id="156" x="742" y="879" width="261" measuredWidth="261" measuredHeight="6" foreground="#cccccc" lineStyle="dotted"/>
+  <widgets xsi:type="model:Master" id="187" x="182" y="203" measuredWidth="537" measuredHeight="689" dimmed="true">
+    <screen xsi:type="model:Screen" href="dashboard/dashboard-todo.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="190" x="742" y="203" measuredWidth="268" measuredHeight="181" link="old_dashboard-todo-expended.screen" dimmed="true">
+    <screen xsi:type="model:Screen" href="Common/upcomming-meetings-closed.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="191" x="742" y="438" measuredWidth="265" measuredHeight="162" link="old_dashboard-todo-expended.screen" dimmed="true">
+    <screen xsi:type="model:Screen" href="Common/listing-search-closed.screen#/"/>
+  </widgets>
+  <hRuler>
+    <guides position="742"/>
+    <guides position="1002"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

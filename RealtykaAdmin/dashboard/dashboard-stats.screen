@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="1" width="537" height="841" text="To Do,Stats,Profile" measuredWidth="537" measuredHeight="841" selection="1">
+    <items link="../old_dashboard-todo.screen" x="10" y="0" width="53" height="27" text="To Do"/>
+    <items link="../old_dashboard-stats.screen" x="63" y="0" width="46" height="27" text="Stats"/>
+    <items x="109" y="0" width="55" height="27" text="Profile"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="171" x="33" y="40" measuredWidth="463" measuredHeight="293">
+    <widgets xsi:type="model:Master" id="147" x="1" measuredWidth="207" measuredHeight="56">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#h1.%20Heading"/>
+      <overrides>
+        <widgets ref="1" text="-    My Goals"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Label" id="155" y="70" text="Transactions" measuredWidth="94" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="156" x="32" y="97" text="10" measuredWidth="26" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="157" y="102" text="Goal:" measuredWidth="33" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="158" x="246" y="102" text="Currently:" measuredWidth="58" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Master" id="159" x="303" y="96" measuredWidth="160" measuredHeight="34">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#Label%20Success"/>
+      <overrides>
+        <widgets ref="69" width="160" height="34" text="8">
+          <font size="19px"/>
+        </widgets>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Label" id="160" y="150" text="Transactions Amount" measuredWidth="156" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="161" x="32" y="177" text="40,000,000" measuredWidth="94" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="162" y="182" text="Goal:" measuredWidth="33" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="163" x="246" y="182" text="Currently:" measuredWidth="58" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Master" id="164" x="303" y="176" measuredWidth="160" measuredHeight="34">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#Label%20Success"/>
+      <overrides>
+        <widgets ref="69" width="160" height="34" text="60,000,000">
+          <font size="19px"/>
+        </widgets>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:Label" id="165" y="233" text="New Leads" measuredWidth="82" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="166" x="32" y="260" text="50" measuredWidth="26" measuredHeight="33">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="167" y="270" text="Goal:" measuredWidth="33" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="168" x="246" y="265" text="Currently:" measuredWidth="58" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Master" id="169" x="303" y="259" measuredWidth="160" measuredHeight="34">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#Label%20Success"/>
+      <overrides>
+        <widgets ref="69" width="160" height="34" text="20">
+          <font size="19px"/>
+        </widgets>
+      </overrides>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="172" x="33" y="376" measuredWidth="462" measuredHeight="275">
+    <widgets xsi:type="model:Master" id="173" x="1" measuredWidth="334" measuredHeight="56">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#h1.%20Heading"/>
+      <overrides>
+        <widgets ref="1" text="-    My Website Stats"/>
+      </overrides>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="194" y="70" measuredWidth="441" measuredHeight="59">
+      <widgets xsi:type="model:Label" id="189" x="246" y="26" text="10" measuredWidth="26" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="174" text="Daily visits" measuredWidth="81" measuredHeight="28">
+        <font size="15px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="175" x="70" y="26" text="10" measuredWidth="26" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="176" x="1" y="31" text="This Month:" measuredWidth="70" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="190" x="177" y="31" text="Last Month" measuredWidth="66" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="191" x="415" y="26" text="10" measuredWidth="26" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="192" x="351" y="31" text="Year Avg.:" measuredWidth="59" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="195" y="144" measuredWidth="445" measuredHeight="59">
+      <widgets xsi:type="model:Label" id="196" x="246" y="26" text="3.6" measuredWidth="30" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="197" text="Page Views / Visit" measuredWidth="131" measuredHeight="28">
+        <font size="15px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="198" x="70" y="26" text="2.5" measuredWidth="30" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="199" x="1" y="31" text="This Month:" measuredWidth="70" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="200" x="177" y="31" text="Last Month" measuredWidth="66" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="201" x="415" y="26" text="1.2" measuredWidth="30" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="202" x="351" y="31" text="Year Avg.:" measuredWidth="59" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="203" x="1" y="216" measuredWidth="461" measuredHeight="59">
+      <widgets xsi:type="model:Label" id="204" x="246" y="26" text="2.5%" measuredWidth="46" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="205" text="Conversion Rate" measuredWidth="120" measuredHeight="28">
+        <font size="15px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="206" x="70" y="26" text="4%" measuredWidth="32" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="207" x="1" y="31" text="This Month:" measuredWidth="70" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="208" x="177" y="31" text="Last Month" measuredWidth="66" measuredHeight="23">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="209" x="415" y="26" text="1.2%" measuredWidth="46" measuredHeight="33">
+        <font size="19px"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="210" x="351" y="31" text="Year Avg.:" measuredWidth="59" measuredHeight="23">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="211" x="41" y="680" measuredWidth="296" measuredHeight="56">
+    <widgets xsi:type="model:Master" id="212" measuredWidth="296" measuredHeight="56">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#h1.%20Heading"/>
+      <overrides>
+        <widgets ref="1" text="+    My Sales Stats"/>
+      </overrides>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="237" x="41" y="752" measuredWidth="319" measuredHeight="56">
+    <widgets xsi:type="model:Master" id="238" measuredWidth="319" measuredHeight="56">
+      <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Typography.screen#h1.%20Heading"/>
+      <overrides>
+        <widgets ref="1" text="+    My Listing Stats"/>
+      </overrides>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
